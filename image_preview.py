@@ -21,6 +21,8 @@ def preview_image(image_path):
     # Display the image in a window
     cv2.imshow("Image Preview", image)
 
+    
+
     # Wait for a key press to close the window
     print("Press any key in the preview window to close.")
     cv2.waitKey(0)
