@@ -7,6 +7,11 @@ def preview_image(image_path):
         print(f"Error: The file {image_path} does not exist.")
         return
 
+
+
+
+    
+
     # Load the image
     image = cv2.imread(image_path)
     if image is None:
